@@ -1,0 +1,35 @@
+### OSX ###
+**/.DS_Store
+
+# Icon must end with two \r
+Icon
+
+*.sql
+*.log
+*.icloud
+.idea/
+.benchmarks
+*env/
+*EXPERIMENTS*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.vscode
+
+# commands
+/bin/
+/dev_db_fixture.json
+docker-compose.yml
+docker-compose-local.yml
+env.dev
+/dump.rdb
+
+Dockerfile.dev
+entrypoint-web.sh
+src/
+.python-version
+clean_users.py
+celerybeat-schedule.db
+/test_main.http
